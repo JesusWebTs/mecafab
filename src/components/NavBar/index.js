@@ -16,7 +16,7 @@ function NavBar({ content = [] }) {
       </LogoStyled>
       <LinkContainerStyled>
         {content.map((el) => (
-          <LinkItemStyled>
+          <LinkItemStyled> 
             <LinkStyled href={el.href}>{el.title}</LinkStyled>
           </LinkItemStyled>
         ))}
