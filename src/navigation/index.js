@@ -1,3 +1,5 @@
+import { AboutPage } from "../pages";
+
 export default [
   {
     href: "#",
@@ -7,7 +9,7 @@ export default [
   {
     href: "#about-us",
     title: "Acerca",
-    component: <></>,
+    component: <AboutPage id="about-us"></AboutPage>,
   },
   {
     href: "#services",
